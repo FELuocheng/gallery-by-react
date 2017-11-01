@@ -11,7 +11,8 @@ html,body {
 .stage{
   position: relative;
   width: 100%;
-  height: 680px;
+  /*height: 680px;*/
+  height: 100%;
 }
 /*image*/
 .img-sec{
@@ -20,6 +21,29 @@ html,body {
   width: 100%;
   overflow: hidden;
   background: #ddd;
+}
+.img-sec .img-figure{
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  width: 320px;
+  height: 360px;
+  margin: 0;
+  padding: 40px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.img-sec .img-figure img{
+  width: 260px;
+  height: 240px;
+}
+.img-sec figcaption{
+  text-align: center;
+}
+.img-title{
+  margin: 20px 0 0;
+  color: #a7a0a2;
+  font-size: 16px;
 }
 .controller-nav{
   position: absolute;
